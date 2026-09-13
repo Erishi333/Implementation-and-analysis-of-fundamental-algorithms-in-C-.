@@ -1,3 +1,7 @@
+#include <vector>
+
+using namespace std;
+
 int busquedaBinariaRecursiva(
     const vector<int>& arreglo,
     int objetivo,
@@ -16,11 +20,17 @@ int busquedaBinariaRecursiva(
 
     if (arreglo[medio] < objetivo) {
         return busquedaBinariaRecursiva(
-            arreglo, objetivo, medio + 1, derecha
+            arreglo,
+            objetivo,
+            medio + 1,
+            derecha
         );
     }
 
     return busquedaBinariaRecursiva(
-        arreglo, objetivo, izquierda, medio - 1
+        arreglo,
+        objetivo,
+        izquierda,
+        medio - 1
     );
 }
