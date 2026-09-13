@@ -21,7 +21,7 @@ usando C++.
 - Análisis de complejidad
 - Eficiencia de algoritmos
 - Vectores
-- Recursividad (próximamente)
+- Recursividad
 - Resolución de problemas
 
 Este proyecto irá creciendo mientras aprendo más sobre algoritmos
