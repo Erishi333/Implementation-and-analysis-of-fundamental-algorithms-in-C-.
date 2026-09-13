@@ -25,4 +25,10 @@ usando C++.
 - Resolución de problemas
 
 Este proyecto irá creciendo mientras aprendo más sobre algoritmos
-y estructuras de datos.
+y estructuras de datos. 
+## 🚀 ¿Cómo compilar y ejecutar?
+
+```bash
+make       # Compilar
+make run   # Ejecutar
+make clean # Limpiar archivos compilados 
